@@ -1,0 +1,43 @@
+
+
+
+header{
+    color: white
+}
+
+body{
+    text-align: center;
+    background-color: steelblue;
+    margin: auto 30%;
+    font-family: Arial, sans-serif;
+}
+
+#title:hover{
+    color:black;
+}
+
+
+
+li{
+    font-weight: bold;
+    letter-spacing: -1px;
+    text-align: left
+}
+
+
+img{
+    width: 30%
+}
+
+
+#quote{
+    color:white;
+    font-family: Merriweather, serif; 
+    font-weight: normal;
+    margin: 30px 30%
+}
+
+footer h4 {
+    margin: 0; /* Removes default top and bottom margins */
+    padding: 0; /* Removes any potential padding */
+  }
