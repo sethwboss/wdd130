@@ -1,3 +1,6 @@
+
+
+
 /* Basic Page Setup */
 #content {
     max-width: 1600px;
@@ -7,6 +10,8 @@
   /* Body and Header Styles */
   body {
     background-color: #fcfbfb; /* Example color */
+    margin: 0;
+    padding: 0;
   }
   
   header {
@@ -110,7 +115,6 @@
   }
 
   
-
 
 
 

@@ -1,0 +1,33 @@
+
+
+
+body {
+    background-color: rgb(255, 255, 255); /* Set the background color to gray */
+  }
+  
+  #title img {
+    width: 100%; /* Make the title image span the full width */
+    display: block; /* Remove extra space below the image */
+
+  }
+  
+  #circle {
+    display: flex; /* Enable flexbox for easy alignment and spacing */
+    justify-content: center; /* Distribute images with space around */
+    align-items: center; /* Vertically center the images */
+    padding: 80px; /* Add some padding around the images */
+    margin: auto; 
+    background-color: gray;
+    gap: 150px;
+  }
+  
+  #circle img {
+    width: 20%; /* Set the desired size for the circular images */
+    height: 20%;
+    border-radius: 50%;
+    border: 15px solid rgb(70, 69, 69);
+    object-fit: cover; /* Maintain aspect ratio while covering the circle */
+
+  }
+
+
