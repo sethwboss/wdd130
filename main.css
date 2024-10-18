@@ -13,7 +13,7 @@ body{
 
 
 nav {
-    background-color: steelblue;
+    background-color: rgb(117, 193, 255);
     padding: 10px;
     display: flex;
     justify-content: space-evenly;
@@ -25,6 +25,7 @@ nav a {
     color:black;
     font-size: 24px;
     padding: 10px 10px;
+    text-decoration: none;
 
 }
 
@@ -34,7 +35,12 @@ nav a:hover {
 }
 
 
-.link {
+main {
+    overflow: auto;
+}
+
+
+/*.link {
         color: steelblue;
         padding:0;
 }
@@ -43,7 +49,7 @@ nav a:hover {
 background-color: beige;
 color: steelblue;
 }
-
+*/
 
 
 
@@ -52,7 +58,7 @@ text-align: center;
 }
 
 h1:hover {
-    color: steelblue
+    color: steelblue;
 }
 
 
@@ -64,18 +70,25 @@ img {
 
 p {
     width: 70%;
-    margin: 3em auto;
+    margin: 3em auto 0;
     line-height: 1.5em;
     padding: 5px 30px 10px 50px;
     box-sizing: border-box;
     border-radius: 10px;
   }
 
-  footer p{
+
+footer {
+    width: 100%;
+    max-width: 100%;
+}
+
+
+footer p{
     padding: 10px;
     color: beige;
     text-align: center;
     background-color: steelblue;
     width: 100%;
-  }
+}
  
