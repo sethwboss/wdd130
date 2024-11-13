@@ -238,12 +238,135 @@
   footer.social img{
     padding-top: 15px;
   }
+
+
+
+  /* Rivers Page CSS */
+
+  .rivers-title {
+    font-family: "Quicksand", "sans-serif";
+    color: #1a009e;
+    font-size: 2em;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    width: 100%;
+  }
+
+  .river-header {
+    background-color: black;
+  }
+
+
+
+  .river-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-gap: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 30px;
+  }
+      .river-grid h2 {
+        font-family: "Quicksand", "sans-serif";
+      }
+  
+
+      .river-img {
+        max-width: 100%;
+        height: auto;
+        justify-content: center;
+        align-content: center;
+        outline: solid 5px black;
+      }
+
+
+
+      .salmon-card {
+        grid-column: 1 / 2;
+        grid-row: 1 / 2;
+      }
+      
+      .river-text {
+        grid-column: 2 / 3;
+        grid-row: 1 / 2;
+        justify-content: center;
+      }
+
+
+      
+      .gray_canyon-card {
+        grid-column: 2 / 3; 
+        grid-row: 2 / 3;
+      }
+      
+      .side-canyon-text {
+        grid-column: 1 / 2;
+        grid-row: 2 / 3;
+        justify-content: center;
+      }
+
+
+      
+      .grand_canyon-card {
+        grid-column: 1 / 2;
+        grid-row: 3 / 4;
+      }
+      
+      .grand-canyon-text {
+        grid-column: 2 / 3;
+        grid-row: 3 / 4;
+        justify-content: center;
+      }
+
+
+      .river-join {
+        background-color: black; /* Example color */
+        color: #9ecbff;
+        text-decoration: none;
+        font-size: 18px;
+        padding: 15px 30px;
+        margin-top: 100px;
+        border-radius: 5px;
+        text-align: center;
+      }
+      
+      .river-join:hover {
+        background-color: rgb(255, 0, 0); /* Example color */
+        color: white;
+      }
+
+      .river-msg {
+        text-align: center;
+        line-height: 1.5em;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /*Media Queries */
   
 
   @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
         height: auto;
+    }
+    header {
+        background-color: black;
     }
     nav, footer {
         flex-direction: column;
@@ -262,7 +385,7 @@
         display: none;
     }
     #hero-msg h1 {
-        color: #6f7364;
+        color: #000000;
     }
     .home-title {
         font-size: 25px;
