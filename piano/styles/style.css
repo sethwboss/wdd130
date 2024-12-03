@@ -1,0 +1,31 @@
+
+
+* {
+    box-sizing: border-box;
+    border: 1px solid red;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #3b2044;
+}
+
+.piano-logo {
+    width: 100px;
+}
+
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+nav a:hover {
+    color: black;
+    text-decoration: none;
+    background-color: white;
+}
