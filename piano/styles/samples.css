@@ -24,6 +24,12 @@
     --nav-hover-background-color: #c66be4;
   }
 
+/*
+* {
+    border: 1px solid red; 
+  }
+*/
+
 
   body {
     background-color: black;
@@ -33,8 +39,8 @@
 }
 
 body, html {
-    height: 100%;
-  }
+  height: 100%;
+}
 
 
   h1, h2, h3, h4, h5, h6 {
@@ -119,7 +125,8 @@ h3 {
     text-decoration: none;
     background-color: white;
     color: black;
-    padding: 8px 15px; /* Add some padding to the button */
+    font-size: 24px; /* Adjust the font size as needed */
+    padding: 15px 30px; /* Adjust padding as needed */
     border: none; /* Remove any default border */
     display: block; /* Make it a block-level element */
     margin: auto auto 0; /* Add margin top, auto left/right, and 0 bottom */
@@ -158,7 +165,7 @@ h3 {
     background-image: url("../images/grand_piano2.jpg");
   
     /* Set a specific height */
-    height: 2000px;
+    min-height: 2000px; 
     width: 100%;
   
     /* Position and center the image to scale nicely on all screens */
@@ -172,13 +179,19 @@ h3 {
 
 
 
-  ul {
+  .firstlist {
     list-style: none;
     display: grid;
     grid-template-columns: repeat(3, 1fr); /* 3 equal-width columns */
-    grid-template-rows: repeat(9, 1fr);    /* 9 equal-height rows */
-    gap: 10px;
+    grid-template-rows: repeat(3, 1fr);    /* 9 equal-height rows */
+    gap: 50px;
+    margin: 100px auto;
   }
+
+  .firstlist li {
+    padding: 20px;
+  }
+
 
 
 
@@ -201,7 +214,7 @@ h3 {
     background-image: url("../images/music_image2.jpg");
   
     /* Set a specific height */
-    height: 800px;
+    height: 1000px;
     width: 100%;
   
     /* Position and center the image to scale nicely on all screens */
@@ -211,6 +224,31 @@ h3 {
     position: relative;
 
     z-index: 0;
+
+    margin-left: auto; /* Add this */
+    margin-right: auto; /* Add this */
+  }
+
+
+  ul2 {
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 equal-width columns */
+    grid-template-rows: repeat(1, 1fr);    /* 9 equal-height rows */
+    gap: 50px;
+    margin: 100px auto;
+  }
+
+  li2 {
+    padding: 20px;
+    justify-content: center;
+    align-content: center;
+  }
+
+
+  thumbnail img {
+    max-width: 100%;
+    height: auto;
   }
 
 
@@ -221,12 +259,9 @@ h3 {
 
 
 
-
-
-
-
   footer {
-    background-color: #3b2044; /* Dark gray background */
+    margin: 100px auto;
+    background-image: linear-gradient(to top, #663399, black); 
     color: white;
     padding: 20px; 
     text-align: center; /* Center align all content */
