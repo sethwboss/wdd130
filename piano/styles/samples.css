@@ -176,7 +176,7 @@ h3 {
 
   .hero-image {
     /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-    background-image: url("../images/grand_piano2.jpg");
+    background-image: url("../images/grand_piano2original.jpg");
   
     /* Set a specific height */
     min-height: 2000px; 
@@ -226,7 +226,7 @@ h3 {
 
   .hero-image2 {
     /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-    background-image: url("../images/music_image.jpg");
+    background-image: url("../images/music_imageoriginal.jpg");
   
     /* Set a specific height */
     height: 1000px;
