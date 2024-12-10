@@ -30,13 +30,13 @@
 /* {
     box-sizing: border-box;
     border: 1px solid red;
-}
-*/
+} */
+
 
 
 
 body {
-    background-color: #0b4cb0;;
+    background-color: black;
     color: white;
     margin: 0;
     padding: 0;
@@ -71,16 +71,27 @@ h3 {
 
 
 
+  .transition0 {
+    background-color: black;
+    color: black;
+    height: 100px;
+    z-index: 2;
+  }
+
+  
+
 nav {
     display: flex;
     justify-content: space-evenly;
     width: 100%;
     height: 150px;  /* Set the desired height here */
     box-sizing: border-box;
-    background-image: linear-gradient(to bottom, #663399, black); 
+    background-image: linear-gradient(to bottom, #0b4cb0, black); 
     padding: 10px;
     align-items: center; /* Add this line to vertically center the items */
+    border: rgb(24, 24, 24) solid 1px;
 }
+
 
 .piano-logo {
     width: 100px;
@@ -119,6 +130,7 @@ nav {
   .book1_now a:hover {
     background-color: #0b4cb0; /* Darken the background on hover */
     color: white;
+    border: white 1px solid;
   }
 
 
@@ -140,6 +152,7 @@ nav {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+
   }
 
   body, html {
@@ -147,21 +160,34 @@ nav {
 }
 
 .parallax p { 
-    padding-left: 50px;
+  display: inline-block;
+    background-color: black;
+    padding: 10px 10px;
+    padding-left: 100px;
     font-size: 20px;
+    white-space: pre-line;
+    line-height: 1;
+    margin-bottom: 3px;
   }
 
 .parallax h1 {
     padding-bottom: 0px;
     margin: 0;
-    padding-left: 20px; /* Adjust the value as needed */
+    padding-left: 50px; /* Adjust the value as needed */
 }
 
 .parallax h2 {
   padding-bottom: 0px;
   margin: 0;
-  padding-left: 20px; /* Adjust the value as needed */
+  padding-left: 75px; /* Adjust the value as needed */
 }
+
+.background {
+  margin-top: -33px;
+  border: 3px solid black;
+  padding: 0 0 20px 0;
+}
+
 
 .background h2,  .background p {
     text-align: center;
@@ -195,6 +221,8 @@ nav {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+
+  border: 10px solid black;
 }
 
 
@@ -202,7 +230,7 @@ nav {
 .hero-text {
   text-align: center;
   position: absolute;
-  top: 100px;
+  top: 120px;
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
@@ -213,10 +241,16 @@ nav {
 
 
 
+.transition1 {
+  background-color: black;
+  color: black;
+  height: 300px;
+  z-index: 2;
+}
+
 
 .transition {
-  
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(39, 39, 39, 0.2));
+  background-image: linear-gradient(to bottom, rgb(0, 0, 0), rgb(11, 76, 176, 1));
   color: black;
   height: 260px;
   margin-bottom: -160px;
@@ -228,7 +262,7 @@ nav {
 .hero-text2 {
   text-align: center;
   position: absolute;
-  top: 100px;
+  top: 120px;
   left: 50%;
   transform: translate(-50%, -50%);
   color: white;
@@ -251,18 +285,10 @@ nav {
     position: relative;
 
     z-index: 0;
+
+    margin-top: 100px;
+
   }
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -276,14 +302,16 @@ nav {
     padding: 8px 15px; /* Add some padding to the button */
     border: none; /* Remove any default border */
     display: block; /* Make it a block-level element */
-    margin: auto auto 0; /* Add margin top, auto left/right, and 0 bottom */
+    margin: 30px auto 0; /* Add margin top, auto left/right, and 0 bottom */
     width: fit-content; /* Make the button width fit the content */
     border-radius: 5px; /* Add rounded corners */
     transition: background-color 0.3s ease; /* Add a smooth transition effect */
   }
 
   .book_now a:hover {
-    background-color: #ddd; /* Darken the background on hover */
+    background-color: #0b4cb0; /* Darken the background on hover */
+    color: white;
+    border: 1px solid white;
   }
   
 
@@ -297,11 +325,18 @@ nav {
 
 
 
+
+
+
+
+
+
   footer {
-    background-color: #3b2044; /* Dark gray background */
+    background-image: linear-gradient(to top, #663399, black); 
     color: white;
     padding: 20px; 
     text-align: center; /* Center align all content */
+    border: rgb(37, 37, 37) solid 1px;
   }
   
   footer h2 {

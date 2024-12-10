@@ -76,6 +76,7 @@ h3 {
     background-image: linear-gradient(to bottom, #663399, black); 
     padding: 10px;
     align-items: center; /* Add this line to vertically center the items */
+    border: rgb(24, 24, 24) solid 1px;
 }
 
 .piano-logo {
@@ -115,8 +116,19 @@ h3 {
   .book1_now a:hover {
     background-color: #0b4cb0; /* Darken the background on hover */
     color: white;
+    border: white solid 1px;
 }
 
+
+
+
+
+.transition0 {
+  background-color: black;
+  color: black;
+  height: 100px;
+  z-index: 2;
+}
 
 
 
@@ -136,7 +148,9 @@ h3 {
   }
 
   .book_now a:hover {
-    background-color: #ddd; /* Darken the background on hover */
+    background-color: #3b2044; /* Darken the background on hover */
+    color: white;
+    border: white 1px solid;
   }
 
 
@@ -190,6 +204,7 @@ h3 {
 
   .firstlist li {
     padding: 20px;
+    font-size: 20px;
   }
 
 
@@ -211,7 +226,7 @@ h3 {
 
   .hero-image2 {
     /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-    background-image: url("../images/music_image2.jpg");
+    background-image: url("../images/music_image.jpg");
   
     /* Set a specific height */
     height: 1000px;
@@ -265,6 +280,7 @@ h3 {
     color: white;
     padding: 20px; 
     text-align: center; /* Center align all content */
+    border: rgb(37, 37, 37) solid 1px;
   }
   
   footer h2 {
