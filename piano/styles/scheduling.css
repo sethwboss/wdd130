@@ -192,6 +192,15 @@ nav {
     margin-top: 30px;
 }
 
+.hero-text p { 
+    display: inline-block;
+      background-color: black;
+      font-size: 20px;
+      white-space: pre-line;
+      line-height: 1;
+      margin-bottom: 3px;
+    }
+
 
 /*linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), */
 
