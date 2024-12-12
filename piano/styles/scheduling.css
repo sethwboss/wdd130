@@ -141,6 +141,14 @@ nav {
 
 
 
+  .transition0 {
+    background-color: black;
+    color: black;
+    height: 100px;
+    z-index: 2;
+  }
+
+
 
 
 
@@ -206,19 +214,6 @@ nav {
 
 
 
-
-.transition0 {
-    background-color: black;
-    color: black;
-    height: 100px;
-    z-index: 2;
-  }
-
-
-
-
-
-
 .hero-text2 {
   text-align: center;
   color: white;
@@ -230,28 +225,6 @@ nav {
 
 
 
-
-
-
-
-  .book_now a {
-    text-decoration: none;
-    background-color: white;
-    color: black;
-    padding: 8px 15px; /* Add some padding to the button */
-    border: none; /* Remove any default border */
-    display: block; /* Make it a block-level element */
-    margin: 30px auto 0; /* Add margin top, auto left/right, and 0 bottom */
-    width: fit-content; /* Make the button width fit the content */
-    border-radius: 5px; /* Add rounded corners */
-    transition: background-color 0.3s ease; /* Add a smooth transition effect */
-  }
-
-  .book_now a:hover {
-    background-color: #0b4cb0; /* Darken the background on hover */
-    color: white;
-    border: 1px solid white;
-  }
   
 
 
@@ -261,7 +234,31 @@ nav {
 
 
 
-
+  .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two equal-width columns */
+    gap: 20px; /* Adjust spacing between grid items */
+  }
+  
+  .image-left img {
+    grid-column: 1; /* Span the first column */
+    border: 7px white solid;
+    margin-left: 10px;
+  }
+  
+  .text-right {
+    grid-column: 2; /* Span the second column */
+  }
+  
+  .text-top {
+    /* Style your text content here */
+  }
+  
+  .image-right {
+    /* Style your second image here */
+    max-width: 100%; 
+    height: auto; /* Maintain aspect ratio */
+  }
 
 
 
