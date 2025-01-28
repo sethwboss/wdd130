@@ -211,6 +211,7 @@ iframe {
   align-self: center; /* Centers vertically within its grid area */
   justify-self: center; /* Centers horizontally within its grid area */ 
   margin: 20px 0;
+  border: 2px solid white;
 }
 
 .background {
